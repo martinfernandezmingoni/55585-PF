@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Catan",
+    "description": "Construye y comercia en esta aventura estratégica.",
+    "price": 14999.99,
+    "thumbnail": [],
+    "code": "CM-001",
+    "stock": 50
+  },
+  {
+    "id": 2,
+    "title": "Risk",
+    "description": "Domina el mundo en este juego de estrategia militar.",
+    "price": 13999.99,
+    "thumbnail": [],
+    "code": "CM-002",
+    "stock": 40
+  },
+  {
+    "id": 3,
+    "title": "Ticket to Ride",
+    "description": "Construye rutas de tren en este juego de aventuras.",
+    "price": 12999.99,
+    "thumbnail": [],
+    "code": "CM-003",
+    "stock": 35
+  },
+  {
+    "id": 4,
+    "title": "Pandemic",
+    "description": "Combate enfermedades mortales en este juego cooperativo.",
+    "price": 15999.99,
+    "thumbnail": [],
+    "code": "CM-004",
+    "stock": 30
+  },
+  {
+    "id": 5,
+    "title": "Carcassonne",
+    "description": "Construye un paisaje medieval en este juego de fichas.",
+    "price": 12999.99,
+    "thumbnail": [],
+    "code": "CM-005",
+    "stock": 45
+  },
+  {
+    "id": 6,
+    "title": "Dominion",
+    "description": "Crea un reino en este juego de construcción de mazos.",
+    "price": 12499.99,
+    "thumbnail": [],
+    "code": "CM-006",
+    "stock": 25
+  },
+  {
+    "id": 7,
+    "title": "Codenames",
+    "description": "Descifra las palabras clave en este juego de espionaje.",
+    "price": 10999.99,
+    "thumbnail": [],
+    "code": "CM-007",
+    "stock": 55
+  },
+  {
+    "id": 8,
+    "title": "Scythe",
+    "description": "Controla una nación en este juego de estrategia alternativa.",
+    "price": 17999.99,
+    "thumbnail": [],
+    "code": "CM-008",
+    "stock": 20
+  },
+  {
+    "id": 9,
+    "title": "Terraforming Mars",
+    "description": "Transforma el planeta rojo en este juego de ciencia ficción.",
+    "price": 16999.99,
+    "thumbnail": [],
+    "code": "CM-009",
+    "stock": 15
+  },
+  {
+    "id": 10,
+    "title": "Azul",
+    "description": "Crea mosaicos en este juego de azulejos y patrones.",
+    "price": 13999.99,
+    "thumbnail": [],
+    "code": "CM-010",
+    "stock": 60
+  }
+]
