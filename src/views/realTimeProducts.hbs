@@ -1,0 +1,136 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
+    <div class="container-fluid px-4">
+        <a class="navbar-brand btn btn-primary badge fw-bold text-white" href="/products" style="font-size: 1rem; padding: 10px;">Productos</a>
+    </div>
+</nav>
+
+<div class="container bg-primary-subtle">
+    <h2 class="text-center bs-light-text-emphasis py-2">Productos en Tiempo Real</h2>
+
+    <hr class="border border-primary border-2 opacity-50" />
+
+    <div class="card mb-5 col-md-6 offset-md-3">
+        <div class="card-header text-center">
+            <h5>Formulario para crear producto</h5>
+        </div>
+        <div class="card-body">
+            <form id="form" enctype="multipart/form-data" action="/api/products">
+                <div class="mb-2">
+                    <label for="title" class="form-label">Producto:</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        name="title"
+                        id="title"
+                        required
+                    />
+                </div>
+                <div class="mb-2">
+                    <label for="description" class="form-label">Descripción:</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        name="description"
+                        id="description"
+                        required
+                    />
+                </div>
+                <div class="mb-2">
+                    <label for="price" class="form-label">Precio:</label>
+                    <input
+                        type="number"
+                        class="form-control"
+                        name="price"
+                        id="price"
+                        step="0.01"
+                        required
+                    />
+                </div>
+
+                <div class="mb-3">
+                    <input type="hidden" name="fileTpe" value="product">
+                    <label for="image" class="form-label">Imagen:</label> <br>
+                    <input
+                        type="file"
+                        name="files"
+                        id="image"
+                    />
+                </div>
+
+                <div class="mb-2">
+                    <label for="code" class="form-label">Código:</label>
+                    <input
+                        type="text"
+                        class="form-control"
+                        name="code"
+                        id="code"
+                        required
+                    />
+                </div>
+                <div class="mb-2">
+                    <label for='category' class='form-label fw-semibold'>Categoría:</label>
+                    <select class='form-select' aria-label='Default select example' name='category' id='category' required>
+                        <option selected>Elige una opción</option>
+                        <option value='Electrónica'>Electrónica</option>
+                        <option value='Celulares'>Celulares</option>
+                    </select>
+                </div>
+                <div class="mb-2">
+                    <label for="stock" class="form-label">Stock:</label>
+                    <input
+                        type="number"
+                        class="form-control"
+                        name="stock"
+                        id="stock"
+                        required
+                    />
+                </div>
+                <button
+                    type="submit"
+                    class="btn btn-outline-success form-control fw-bold"
+                    id="addProduct"
+                >Crear Producto</button>
+            </form>
+        </div>
+    </div>
+
+    <hr class="border border-primary border-2 opacity-50" />
+
+    <table
+        class="table table-bordered table-striped table-hover text-center mt-5"
+        id="productsTable"
+    >
+        <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+            <th>Código</th>
+            <th>Categoría</th>
+            <th>Stock</th>
+            <th>Gestión</th>
+        </tr>
+        </thead>
+        <tbody id="tbody">
+        {{#each allProducts}}
+            <tr>
+            <td class="text-start">{{this.title}}</td>
+            <td class="text-start">{{this.description}}</td>
+            <td>{{this.price}}</td>
+            <td>{{this.code}}</td>
+            <td>{{this.category}}</td>
+            <td>{{this.stock}}</td>
+            <td>
+                <button
+                    class="btn btn-danger"
+                    onclick="deleteProduct(`{{this._id}}`)"
+                    id="btnDelete"
+                >Eliminar</button>
+            </td>
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>

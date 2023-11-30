@@ -4,89 +4,139 @@
     "title": "Catan",
     "description": "Construye y comercia en esta aventura estratégica.",
     "price": 14999.99,
-    "thumbnail": [],
+    "thumbnail": [
+			"ruta-imagen-1.jpg",
+			"ruta-imagen-2.jpg"
+		],
     "code": "CM-001",
-    "stock": 50
+    "category": "Estrategia",
+    "stock": 50,
+    "status":true
   },
   {
     "id": 2,
     "title": "Risk",
     "description": "Domina el mundo en este juego de estrategia militar.",
     "price": 13999.99,
-    "thumbnail": [],
+    "thumbnail": [
+			"ruta-imagen-3.jpg",
+			"ruta-imagen-4.jpg"
+		],
     "code": "CM-002",
-    "stock": 40
+    "category": "Estrategia",
+    "stock": 40,
+    "status":true
   },
   {
     "id": 3,
     "title": "Ticket to Ride",
     "description": "Construye rutas de tren en este juego de aventuras.",
     "price": 12999.99,
-    "thumbnail": [],
+    "thumbnail": [
+			"ruta-imagen-4.jpg",
+			"ruta-imagen-5.jpg"
+		],
     "code": "CM-003",
-    "stock": 35
+    "category": "Estrategia",
+    "stock": 35,
+    "status":true
   },
   {
     "id": 4,
     "title": "Pandemic",
     "description": "Combate enfermedades mortales en este juego cooperativo.",
     "price": 15999.99,
-    "thumbnail": [],
+    "thumbnail": [
+			"ruta-imagen-6.jpg",
+			"ruta-imagen-7.jpg"
+		],
     "code": "CM-004",
-    "stock": 30
+    "category": "Estrategia",
+    "stock": 30,
+    "status":true
   },
   {
     "id": 5,
     "title": "Carcassonne",
     "description": "Construye un paisaje medieval en este juego de fichas.",
     "price": 12999.99,
-    "thumbnail": [],
+    "thumbnail": [
+			"ruta-imagen-8.jpg",
+			"ruta-imagen-9.jpg"
+		],
     "code": "CM-005",
-    "stock": 45
+    "category": "Estrategia",
+    "stock": 45,
+    "status":true
   },
   {
     "id": 6,
     "title": "Dominion",
     "description": "Crea un reino en este juego de construcción de mazos.",
     "price": 12499.99,
-    "thumbnail": [],
+    "thumbnail": [
+			"ruta-imagen-10.jpg",
+			"ruta-imagen-11.jpg"
+		],
     "code": "CM-006",
-    "stock": 25
+    "category": "Cartas",
+    "stock": 25,
+    "status":true
   },
   {
     "id": 7,
     "title": "Codenames",
     "description": "Descifra las palabras clave en este juego de espionaje.",
     "price": 10999.99,
-    "thumbnail": [],
+    "thumbnail": [
+			"ruta-imagen-12.jpg",
+			"ruta-imagen-13.jpg"
+		],
     "code": "CM-007",
-    "stock": 55
+    "category": "Estrategia",
+    "stock": 55,
+    "status":true
   },
   {
     "id": 8,
     "title": "Scythe",
     "description": "Controla una nación en este juego de estrategia alternativa.",
     "price": 17999.99,
-    "thumbnail": [],
+    "thumbnail": [
+			"ruta-imagen-13.jpg",
+			"ruta-imagen-14.jpg"
+		],
     "code": "CM-008",
-    "stock": 20
+    "category": "Estrategia",
+    "stock": 20,
+    "status":true
   },
   {
     "id": 9,
     "title": "Terraforming Mars",
     "description": "Transforma el planeta rojo en este juego de ciencia ficción.",
     "price": 16999.99,
-    "thumbnail": [],
+    "thumbnail": [
+			"ruta-imagen-13.jpg",
+			"ruta-imagen-14.jpg"
+		],
     "code": "CM-009",
-    "stock": 15
+    "category": "Estrategia",
+    "stock": 15,
+    "status":true
   },
   {
     "id": 10,
     "title": "Azul",
     "description": "Crea mosaicos en este juego de azulejos y patrones.",
     "price": 13999.99,
-    "thumbnail": [],
+    "thumbnail": [
+			"ruta-imagen-13.jpg",
+			"ruta-imagen-14.jpg"
+		],
     "code": "CM-010",
-    "stock": 60
+    "category": "Estrategia",
+    "stock": 60,
+    "status":true
   }
 ]
